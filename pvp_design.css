@@ -169,25 +169,25 @@ canvas {
     color: white;
     max-width: 50%;
     position: fixed;
-    top: 20px; /* Adjust the top position as needed */
-    left: calc(55% - 25%); /* Adjust the left position as needed */
+    top: 20px; 
+    left: calc(55% - 25%); 
 }
 
 @media (max-width: 1610px) {
     .score_board {
-        max-width: 90%; /* Adjust the width for smaller screens */
-        left: 50%; /* Center horizontally for smaller screens */
-        top: 10px; /* Adjust the top position as needed */
-        transform: translateX(-50%); /* Center horizontally using transform */
+        max-width: 90%; 
+        left: 50%; 
+        top: 10px; 
+        transform: translateX(-50%); 
     }
 }
 
 @media (max-width: 609px) {
     .score_board {
-        max-width: 90%; /* Adjust the width for smaller screens */
-        left: 50%; /* Center horizontally for smaller screens */
-        top: 10px; /* Adjust the top position as needed */
-        transform: translateX(-50%); /* Center horizontally using transform */
+        max-width: 90%; 
+        left: 50%; 
+        top: 10px; 
+        transform: translateX(-50%); 
     }
 }
 
@@ -202,7 +202,7 @@ canvas {
     margin-top: 190px;
     bottom: 0;
     position: absolute;
-    width: 200px; /* Set a fixed width for the buttons */
+    width: 200px; 
     border: 3px solid rgb(255, 0, 0);
     border-radius: 10px;
     color: rgb(255, 255, 255);
@@ -223,40 +223,39 @@ canvas {
 }
 @media (max-width: 900px) {
     .container {
-        grid-template-columns: repeat(6, minmax(40px, 1fr)); /* Adjust column size for smaller screens */
-        grid-template-rows: repeat(5, minmax(40px, 1fr)); /* Adjust row size for smaller screens */
+        grid-template-columns: repeat(6, minmax(40px, 1fr)); 
+        grid-template-rows: repeat(5, minmax(40px, 1fr)); 
     }
     .cell{
-        padding: 3px; /* Adjust padding for smaller screens */
+        padding: 3px; 
     }
 }
 @media (max-width: 800px) {
     .container {
-        grid-template-columns: repeat(6, minmax(30px, 1fr)); /* Adjust column size for smaller screens */
-        grid-template-rows: repeat(5, minmax(30px, 1fr)); /* Adjust row size for smaller screens */
+        grid-template-columns: repeat(6, minmax(30px, 1fr)); 
+        grid-template-rows: repeat(5, minmax(30px, 1fr)); 
     }
     .cell {
-        padding: 3px; /* Adjust padding for smaller screens */
+        padding: 3px; 
     }
 }
 
 
 @media (max-width: 767px) {
     .container {
-        grid-template-columns: repeat(6, minmax(25px, 1fr)); /* Adjust column size for smaller screens */
-        grid-template-rows: repeat(5, minmax(25px, 1fr)); /* Adjust row size for smaller screens */
-    }
+        grid-template-columns: repeat(6, minmax(25px, 1fr)); 
+        grid-template-rows: repeat(5, minmax(25px, 1fr)); 
     .cell {
-        padding: 3px; /* Adjust padding for smaller screens */
+        padding: 3px; 
     }
 }
 
 @media (max-width: 479px) {
     .container {
-        grid-template-columns: repeat(6, minmax(20px, 1fr)); /* Further adjust column size for even smaller screens */
-        grid-template-rows: repeat(5, minmax(20px, 1fr)); /* Further adjust row size for even smaller screens */
+        grid-template-columns: repeat(6, minmax(20px, 1fr)); 
+        grid-template-rows: repeat(5, minmax(20px, 1fr)); 
     }
     .cell {
-        padding: 2px; /* Further adjust padding for even smaller screens */
+        padding: 2px; 
     }
 }
